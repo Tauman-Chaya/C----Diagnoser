@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>923c0568-aecd-4269-af0d-b3c573ffaa40</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\DiagnosersController.cs~RF51ccbb2.TMP" />
+    <None Remove="Controllers\DiagnosersController.cs~RF550ea0b.TMP" />
+    <None Remove="Controllers\kbz2lbgj.ejt~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>
