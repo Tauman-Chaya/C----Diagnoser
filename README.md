@@ -275,6 +275,14 @@ stateDiagram-v2
 
 תיעוד אינטראקטיבי מלא זמין ב-**Swagger UI** בכתובת `/swagger` כשהשרת רץ.
 
+</div>
+
+<p align="center">
+  <img src="docs/screenshots/swagger.png" alt="Swagger UI" width="850"/>
+</p>
+
+<div dir="rtl">
+
 <details open>
 <summary><b>🤖 AI</b> — <code>/api/AI</code></summary>
 
